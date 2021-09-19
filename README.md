@@ -27,7 +27,7 @@
 3. Update    
     a. Ubah data product id 1 dengan nama _'product dummy'_    
     b. Update qty = 3 pada transaction detail dengan product id 1    
-4. Delete
+4. Delete      
     a. Delete data pada table product dengan id 1    
     b. Delete pada table product dengan product type id 1    
     
