@@ -49,7 +49,7 @@
 
 Untuk membuat trigger (pemicu) dapat menggunakan syntax berikut (https://www.youtube.com/embed/f6VWSlnHGCE?start=201)
 
-```
+```sql
 CREATE TRIGGER trigger_name
 [BEFORE | AFTER] [INSERT | UPDATE | DELETE]
 ON table_name [FOR EACH ROW | FOR EACH COLUMN]
@@ -58,7 +58,7 @@ ON table_name [FOR EACH ROW | FOR EACH COLUMN]
 
 Sebagai contoh fungsi trigger berikut (https://www.mysqltutorial.org/mysql-triggers/mysql-after-delete-trigger/)
 
-```
+```sql
 CREATE TRIGGER after_salaries_delete
 AFTER DELETE
 ON Salaries FOR EACH ROW
